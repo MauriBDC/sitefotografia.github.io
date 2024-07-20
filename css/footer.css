@@ -1,0 +1,39 @@
+.divisor {
+    content: '';
+    background: rgba(207, 200, 195, 0.5);
+    height: 0.5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0px;
+}
+
+.footer-img {
+    width:10rem;
+    fill: #cfc8c3;
+}
+
+.footer p {
+    color: #cfc8c3;
+}
+
+@media (max-width: 900px){
+    .footer {
+        flex-direction: column;
+        padding: 32px 0px;
+        align-items: end;
+    }
+}
+
+@media (max-width: 400px){
+    .footer {
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer p{
+        align-self: start;
+    }
+}
