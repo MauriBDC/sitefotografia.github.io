@@ -89,9 +89,10 @@
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .galeria {
         grid-template-columns: 1fr;
+        gap: 32px 20px;
     }
 
     .templo-noite, .templo-interno, .galeria-descricao {
@@ -100,6 +101,10 @@
 
     .galeria-descricao {
         grid-row: 1;
+    }
+
+    .cerejeira {
+        grid-row: 2;
     }
 
     .templo-interno{
