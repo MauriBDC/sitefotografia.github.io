@@ -74,7 +74,7 @@
     } 
 }   
 
-@media (max-width: 400px){
+@media (max-width: 420px){
     .hero {
         grid-template-columns: 1fr;
         gap: 32px 0px;
